@@ -116,9 +116,11 @@ body {
     /* left: 0;
     right: 0; */
     bottom: -100%;
-    transition: bottom 0.5s ease-in-out;
+    transition: bottom 0.5s ease;
+    touch-action: none;
     display: none;
     box-shadow: 0px -4px 12px 4px rgba(18, 38, 63, 0.2);
+
 }
 
 .handle-bar {
